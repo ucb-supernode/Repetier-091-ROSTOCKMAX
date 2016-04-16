@@ -159,7 +159,7 @@ Overridden if EEPROM activated.*/
 // ##########################################################################################
 
 // for each extruder, fan will stay on until extruder temperature is below this value
-#define EXTRUDER_FAN_COOL_TEMP 50
+#define EXTRUDER_FAN_COOL_TEMP 40
 
 #define EXT0_X_OFFSET 0
 #define EXT0_Y_OFFSET 0
@@ -572,11 +572,11 @@ A good start is 30 lower then the optimal value. You need to leave room for cool
 
 // When temperature exceeds max temp, your heater will be switched off.
 // This feature exists to protect your hotend from overheating accidentally, but *NOT* from thermistor short/failure!
-#define MAXTEMP 247
+#define MAXTEMP 300
 
 /** Extreme values to detect defect thermistors. */
 #define MIN_DEFECT_TEMPERATURE 10
-#define MAX_DEFECT_TEMPERATURE 270
+#define MAX_DEFECT_TEMPERATURE 310
 
 
 // ##########################################################################################
